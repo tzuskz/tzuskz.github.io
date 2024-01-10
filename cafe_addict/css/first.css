@@ -11,7 +11,7 @@ body, html {
     margin: 0 auto;
     padding: 0;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1920px) {
     .header{
         padding: 0;
     }
@@ -126,7 +126,7 @@ body, html {
     transform: translateY(-10px);
     color: #D5C3A9; 
   }
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1920px) {
     .nav-menu {
         display: none;
     }
@@ -175,7 +175,7 @@ body, html {
     padding-bottom: 15%;
     gap: 2%;
 }
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1920px) {
     .one{
         width: 100%;
         display: flex;
@@ -277,7 +277,7 @@ body, html {
     width: 85%; 
     height: auto; 
 }
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1920px) {
     .one{
         width: 100%;
         display: flex;
@@ -598,7 +598,7 @@ body, html {
     letter-spacing: 5px;
     padding: 5%;
 }
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1920px) {
     .three-bk-word{
         text-align: center;
     }
@@ -769,7 +769,7 @@ body, html {
     line-height: 4;
     font-weight: lighter;
 }
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1920px) {
     .four-left2-on{
         display: none;
     }
@@ -1124,7 +1124,7 @@ body, html {
     padding: 0;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1920px) {
 	.col-lg-11 {width: 91.662%}
 	.col-lg-10 {width: 83.332%;}
 	.col-lg-9 {width: 75%;}
