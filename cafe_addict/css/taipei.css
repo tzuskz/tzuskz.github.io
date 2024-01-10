@@ -1,0 +1,487 @@
+@media (min-width: 992px) {
+
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container {
+      max-width: 960px;
+    }
+  }
+  
+  @font-face {
+    font-family: Microsoft JhengHei;
+    src: url('MicrosoftJhengHei.ttf');
+    /* 請根據實際情況修改字體檔案的路徑 */
+    font-weight: lighter;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: #3A3A38;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0;
+}
+@media screen and (max-width: 1024px) {
+    .header{
+        padding: 0;
+    }
+}
+@media screen and (max-width: 768px) {
+    .header{
+        padding: 0;
+        display: flex;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 480px) {
+    .header{
+        padding: 0;
+        display: flex;
+        align-items: center;
+    }
+}
+
+.title {
+  font-size: 24px;
+  color: #FFFFFF;
+  font-family: cooper black;
+  font-size: 180%;
+  padding-left: 20px; 
+  padding-top: 20pX;
+  padding-bottom: 20pX;
+  letter-spacing: 5px;
+}
+.title a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-menu{
+    display: flex;
+	font-size: 3em;
+	position: relative;
+	padding: 0 15px;
+	border-radius: 4px;
+	right: 10px;
+    color: #FFFFFF;
+}
+.nav-menu:hover {
+	background-color: #1b1b1a;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+.menu-list-top {
+    display: flex;
+    justify-content: space-between;    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding-right: 20px;
+  }
+  
+  .menu-list-top li {
+    
+    margin-right: 20px;
+  }
+  
+  .menu-list-top li a {
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: microsoft jhenghei;
+    font-size: 110%;
+    padding-bottom: 20px;
+    transition: all 0.3s ease-in-out;
+    position: relative; 
+  }
+  .menu-list-top li a:hover {
+    transform: translateY(-10px);
+    color: #D5C3A9; 
+  }
+.menu{
+    display: none;
+}
+.menu-list {
+    display: none;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding-right: 20px;
+  }
+  
+  .menu-list li {
+    float: left;
+    margin-right: 20px;
+  }
+  
+  .menu-list li a {
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: microsoft jhenghei;
+    font-size: 110%;
+    padding-bottom: 20px;
+    transition: all 0.3s ease-in-out;
+    position: relative; 
+  }
+  .menu-list li a:hover {
+    transform: translateY(-10px);
+    color: #D5C3A9; 
+  }
+@media screen and (max-width: 1280px) {
+    .nav-menu {
+        display: none;
+    }
+}
+@media screen and (max-width: 768px) {
+    .header1{
+        justify-content: center;
+        padding: 0;
+        background-color: #3A3A38;
+        
+    }
+    .menu-top{
+        display: none;
+    }
+    .menu{
+        
+        justify-content: center;
+        align-items: center;
+        
+        padding: 0;
+    }
+    .menu-list{
+        display: none;
+        flex-direction: column;
+        padding: 0;
+    }
+    .nav-menu {
+        display: block;
+    }
+    .menu-list{
+        display: flex;
+    }
+    .menu-click{
+        padding: 0;
+        display: block;
+    }
+}
+
+  
+  header h1 {
+    font-size: 24px;
+    color: #FFFFFF;
+    font-family: cooper black;
+    font-size: 180%;
+    margin-left: 20px;
+    padding: auto;
+  }
+  
+  nav ul {
+    display: flex;
+    /* 橫向並列 */
+    flex-direction: row;
+    list-style: none;
+    align-items: flex-end;
+    margin-right: 20px;
+    padding: auto;
+  }
+  
+  li {
+    margin-right: 20px;
+    align-items: center;
+    padding: auto;
+  }
+  
+  nav a {
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: auto 16px;   
+    text-decoration: none;
+    font-family: microsoft jhenghei;
+    font-size: 110%;
+    transition: all 0.3s ease-in-out;
+    position: relative; 
+  }
+  
+  nav a:hover {
+    transform: translateY(-10px);
+    color: #D5C3A9; 
+  }
+  
+  .banner-container {
+    position: relative;
+  }
+  
+  .banner-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    /* 你可以根據需要調整文字顏色 */
+    text-align: center;
+  }
+  
+  body {
+    font-family: Microsoft JhengHei;
+    background-color: #3A3A38;
+  }
+  
+  .container {
+    width: 80%;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    /* 如果你希望有間隔，可以設定 grid-gap */
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-width: 100%;
+    /* 設定最大寬度 */
+  }
+  
+  @media (max-width: 800px) {
+    .container {
+      grid-template-columns: repeat(2, 1fr);
+      /* 當頁面寬度小於 800px 時，最多顯示一行兩項 */
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .container {
+      grid-template-columns: 1fr;
+      /* 當頁面寬度小於 600px 時，最多顯示一行一項 */
+    }
+  }
+  
+.content {
+  text-align: left;
+  justify-content: flex-start;
+}
+
+  .content img {
+    height: 250px;
+    /* 設定高度 */
+    width: auto;
+    /* 寬度自動 */
+    object-fit: cover;
+    /* 保持圖片的比例 */
+  }
+  
+  .content a h3 {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  
+  .content p {
+    color: #ffffff;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+  }
+  
+  footer {
+    background-color: #3A3A38;
+    text-align: center;
+    padding: 20px;
+  }
+  footer p {
+    color: #ffffff;
+    font-family: microsoft jhenghei;
+    font-weight: lighter;
+    font-size: 50%;
+  }
+  
+  #canvas {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: #3A3A38;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0;
+  }
+  @media screen and (max-width: 1024px) {
+    .header{
+        padding: 0;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .header{
+        padding: 0;
+        display: flex;
+        align-items: center;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .header{
+        padding: 0;
+        display: flex;
+        align-items: center;
+    }
+  }
+  
+  .title {
+    font-size: 24px;
+    color: #FFFFFF;
+    font-family: cooper black;
+    font-size: 180%;
+    padding-left: 20px; 
+    padding-top: 20pX;
+    padding-bottom: 20pX;
+    letter-spacing: 5px;
+  }
+  .nav-menu{
+    display: flex;
+  font-size: 3em;
+  position: relative;
+  padding: 0 15px;
+  border-radius: 4px;
+  right: 10px;
+    color: #FFFFFF;
+  }
+  .nav-menu:hover {
+  background-color: #1b1b1a;
+  color: #FFFFFF;
+  cursor: pointer;
+  }
+  
+  .menu-list-top {
+    display: flex;
+    justify-content: space-between;    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding-right: 20px;
+  }
+  
+  .menu-list-top li {
+    
+    margin-right: 20px;
+  }
+  
+  .menu-list-top li a {
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: microsoft jhenghei;
+    font-size: 110%;
+    padding-bottom: 20px;
+    transition: all 0.3s ease-in-out;
+    position: relative; 
+  }
+  .menu-list-top li a:hover {
+    transform: translateY(-10px);
+    color: #D5C3A9; 
+  }
+  .menu{
+    display: none;
+  }
+  .menu-list {
+    display: none;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding-right: 20px;
+  }
+  
+  .menu-list li {
+    float: left;
+    margin-right: 20px;
+  }
+  
+  .menu-list li a {
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: microsoft jhenghei;
+    font-size: 110%;
+    padding-bottom: 20px;
+    transition: all 0.3s ease-in-out;
+    position: relative; 
+  }
+  .menu-list li a:hover {
+    transform: translateY(-10px);
+    color: #D5C3A9; 
+  }
+  @media screen and (max-width: 1280px) {
+    .nav-menu {
+        display: none;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .header1{
+        justify-content: center;
+        padding: 0;
+        background-color: #3A3A38;
+        
+    }
+    .menu-top{
+        display: none;
+    }
+    .menu{
+        
+        justify-content: center;
+        align-items: center;
+        
+        padding: 0;
+    }
+    .menu-list{
+        display: none;
+        flex-direction: column;
+        padding: 0;
+    }
+    .nav-menu {
+        display: block;
+    }
+    .menu-list{
+        display: flex;
+    }
+    .menu-click{
+        padding: 0;
+        display: block;
+    }
+   
+    
+  }
